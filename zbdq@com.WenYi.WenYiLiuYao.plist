@@ -12,7 +12,7 @@
 					<string>software-package</string>
 					<key>url</key>
 					<!-- 需要安装的ipa包在服务器的路径 -->
-					<string>https://gitee.com/halong_hdw/zbdq_ipa/raw/master/%E5%8D%A0%E5%8D%9C%E5%A4%A7%E5%85%A8%202.8@com.WenYi.WenYiLiuYao.ipa</string>
+					<string>https://github.com/zhdongwu/zhdongwu.github.io/raw/master/zbdq%40com.WenYi.WenYiLiuYao.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
