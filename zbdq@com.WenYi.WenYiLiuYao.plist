@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<!-- 需要安装的ipa包在服务器的路径 -->
+					<string>https://gitee.com/halong_hdw/zbdq_ipa/raw/master/%E5%8D%A0%E5%8D%9C%E5%A4%A7%E5%85%A8%202.8@com.WenYi.WenYiLiuYao.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<!-- 安装时需要显示的大图标（1024*1024）在服务器的路径 -->
+					<string>https://gitee.com/halong_hdw/zbdq_ipa/raw/master/zbdq1024.png</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<!-- 安装时需要显示的小图标（180*180）在服务器的路径 -->
+					<string>https://gitee.com/halong_hdw/zbdq_ipa/raw/master/zbdq180.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.WenYi.WenYiLiuYao</string>
+				<key>bundle-version</key>
+				<string>2.8</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>占卜大全</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
+
