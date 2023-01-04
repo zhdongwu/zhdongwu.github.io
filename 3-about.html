@@ -10,7 +10,12 @@ header-img: "img/post-bg-rwd.jpg"
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
 </select> -->
-
+<script>
+		var downloadClientApp = function() {
+			// 在此用到配置文件(Mytest.plist)的外部链接
+			window.location.href='itms-services://?action=download-manifest&url=https://gitee.com/halong_hdw/zbdq_ipa/raw/master/%E5%8D%A0%E5%8D%9C%E5%A4%A7%E5%85%A8%202.8@com.WenYi.WenYiLiuYao.plist';
+		}
+	</script>
 <!-- Chinese Version -->
 <div class="zh post-container">
 
@@ -31,7 +36,7 @@ header-img: "img/post-bg-rwd.jpg"
     <p>本网站为三叶语官方网站。您也可关注知乎专栏<a href="https://zhuanlan.zhihu.com/Artificial-International-Language">👉人造国际语</a>。如果您有什么建议，欢迎提出探讨~</p>
 
     <p></p>
-    
+    <button  onclick="downloadClientApp();"><a href="javascript:void(0);">点击安装app</a></button>
 </div>
 
 <!-- English Version -->
